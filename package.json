@@ -1,0 +1,17 @@
+{
+  "name": "recode-storeage",
+  "version": "1.0.0",
+  "description": "This is about keeping lot's of fake records",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kazi arman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
+}
