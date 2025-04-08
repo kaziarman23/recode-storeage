@@ -22,12 +22,6 @@ app.use("/", HomeRoute);
 app.use("/user", UserRoute);
 app.use("/order", OrderRoute);
 
-
-// (1, 100.50),
-// (2, 200.00),
-// (1, 75.25),
-// (3, 50.00)`);
-
 // Server Listen
 app.listen(port, () => {
   console.log(`Backend server is running on Port: ${port}`);
